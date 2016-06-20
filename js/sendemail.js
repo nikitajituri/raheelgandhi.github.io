@@ -1,6 +1,7 @@
         function validateForm()
             {
              "use strict";  
+             alert("Validating");
                 var title = $("#name").val();
                 var err=true;
                 if (title=="" || title==null) {  
